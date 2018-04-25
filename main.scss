@@ -1,8 +1,3 @@
-@import 'css/materialize';
-@import 'css/reset';
-@import 'css/portfolio';
-
-
 // sass --watch main.scss:style.css
 
 $primary_color: #235789;
@@ -14,6 +9,11 @@ $prime_gray: #2D3A3A;
 
 $primary_font: 'Open Sans', sans-serif;
 $header_font: 'Open Sans', sans-serif;
+
+@import 'css/materialize';
+@import 'css/reset';
+@import 'css/portfolio';
+@import 'css/technologies';
 
 nav {
   height: 80px;
@@ -107,18 +107,6 @@ header {
   .header-image {
     width: 100%;
     border-radius: 50%;
-  }
-}
-
-.tech {
-  i {
-    font-size: 100px;
-    margin-bottom: 25px;
-  }
-  .col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
