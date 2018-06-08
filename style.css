@@ -6489,6 +6489,9 @@ table {
 .tech p {
   margin-bottom: 25px; }
 
+.me {
+  box-shadow: 4px 4px 2px #000; }
+
 nav {
   height: 80px;
   padding: 0 50px;
